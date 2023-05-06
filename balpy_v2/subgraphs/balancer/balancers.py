@@ -2,15 +2,11 @@
 import asyncio
 
 from balpy_v2.lib import Chain
-from balpy_v2.subgraphs.balancer import BALANCER_MAINNET_SUBGRAPH_URL_MAP
-from balpy_v2.subgraphs.blocks import get_block_number_by_timestamp
-from balpy_v2.lib.gql import gql
-from balpy_v2.subgraphs.client import (
-    BalancerSubgraph,
-    SubgraphBaseClient,
-    SubgraphClient,
+from balpy_v2.subgraphs.balancer import (
+    BALANCER_MAINNET_SUBGRAPH_URL_MAP,
+    BalancerSubgraphQuery,
 )
-from balpy_v2.subgraphs.balancer import BalancerSubgraphQuery
+from balpy_v2.subgraphs.blocks import get_block_number_by_timestamp
 
 
 class BalancersQuery(BalancerSubgraphQuery):

@@ -1,11 +1,7 @@
-import asyncio
+from abc import ABC, abstractmethod
 
 from balpy_v2.lib import Chain
-from balpy_v2.subgraphs.balancer import BALANCER_MAINNET_SUBGRAPH_URL_MAP
 from balpy_v2.lib.gql import gql
-
-
-from abc import ABC, abstractmethod
 
 
 class GraphQLClient(ABC):

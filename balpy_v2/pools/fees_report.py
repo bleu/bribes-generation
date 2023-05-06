@@ -1,5 +1,5 @@
-from unittest import result
 import pandas as pd
+
 from balpy_v2.lib.flatten_json import flatten_json
 from balpy_v2.lib.gql import gql
 
@@ -30,8 +30,9 @@ query token($block: Int!) {
 }
 """
 
-import datetime
 import asyncio
+import datetime
+
 from balpy_v2.subgraphs.blocks import get_block_number_by_timestamp
 
 REPORT_PERIOD_START_DATE = datetime.datetime(2022, 7, 11, 0, 0, 0).timestamp()
