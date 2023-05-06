@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "balpy_v2"
+version = "0.1.0"
+description = ""
+authors = ["José Ribeiro <me@joseribeiro.dev>"]
+readme = "README.md"
+packages = [{ include = "src/balpy_v2" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.1"
+numpy = "^1.24.3"
+httpx = "^0.24.0"
+async-lru = "^2.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
