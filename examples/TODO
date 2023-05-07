@@ -1,0 +1,34 @@
+<!-- from the samples folder -->
+
+[ ] exitPool - sampleExitBptInForExactTokensOut.json
+[ ] exitPool - exitPoolSample.py
+[ ] exitPool - sampleExitExactBptInForOneTokenOut.json
+[ ] exitPool - sampleExitExactBptInForTokensOut.json
+[ ] misc - generateDeploymentsDocsTable.py
+[ ] misc - vaultWethRead.py
+[ ] misc - gasPriceQueries.py
+[ ] misc - balancerHelpersVaultRead.py
+[ ] misc - findPoolFactory.py
+[ ] misc - revokeAllowances.py
+[ ] misc - vaultGetPoolTokens.py
+[ ] batchSwaps - sampleMultihopSwap.json
+[ ] batchSwaps - sampleSingleSwap.json
+[ ] batchSwaps - sampleFlashSwap.json
+[ ] batchSwaps - queryBatchSwapSample.py
+[ ] batchSwaps - batchSwapSample.py
+[ ] batchSwaps - runMeSample.sh
+[ ] batchSwaps - queryBatchSwapsSample.py
+[ ] theGraph - getPools.py
+[ ] stablePool - stablePoolUpdateAmp.py
+[ ] stablePool - stablePoolGetAmp.py
+[ ] joinPool - joinPoolSample.py
+[ ] joinPool - sampleJoinTokenInForExactBptOut.json
+[ ] joinPool - sampleJoinInit.json
+[ ] joinPool - sampleJoinExactTokensInForBptOut.json
+[ ] singleSwap - sampleSingleSwap.json
+[ ] singleSwap - swapSample.py
+[ ] internalBalances - sampleInternalBalances.py
+[ ] oraclePool - oraclePoolGetTwap.py
+[ ] poolVerification - poolVerification.py
+[ ] multicall - erc20Decimals.py
+[ ] getOnchainData.py

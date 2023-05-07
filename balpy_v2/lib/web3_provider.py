@@ -1,18 +1,9 @@
 import os
 from typing import Dict
 import web3
+from balpy_v2.config import DEFAULT_PROVIDER_NETWORK_MAPPING
 
 from balpy_v2.lib import Chain
-
-
-DEFAULT_PROVIDER_NETWORK_MAPPING = {
-    Chain.mainnet: "https://eth.llamarpc.com/rpc/{}".format(
-        os.getenv("LLAMA_PROJECT_ID")
-    ),
-    Chain.polygon: "https://polygon.llamarpc.com/rpc/{}".format(
-        os.getenv("LLAMA_PROJECT_ID")
-    ),
-}
 
 
 class Web3Provider:
