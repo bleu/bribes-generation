@@ -1,6 +1,6 @@
 import pandas as pd
 
-from balpy_v2.lib.flatten_json import flatten_json
+from balpy_v2.lib import flatten_json
 from balpy_v2.lib.gql import gql
 
 GRAPH_URL = "https://api.thegraph.com/subgraphs/name/bleu-studio/balancer-mainnet-v2"

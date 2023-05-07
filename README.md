@@ -1,1 +1,1 @@
-In construction
+- Download the (deployments package)[https://github.com/balancer/balancer-v2-monorepo/tree/master/pkg/deployments] into "balpy_v2/deployments" after you clone

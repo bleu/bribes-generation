@@ -5,7 +5,7 @@ from balpy_v2.lib.gql import gql
 
 
 class GraphQLClient(ABC):
-    def __init__(self, chain):
+    def __init__(self, chain) -> None:
         self.url = self.get_url(chain)
 
     async def instance_query(self, query, variables=dict()):

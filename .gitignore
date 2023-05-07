@@ -176,3 +176,5 @@ pyrightconfig.json
 .vscode
 data/**
 !data/.keep
+**/deployments/**
+!**/deployments/.keep

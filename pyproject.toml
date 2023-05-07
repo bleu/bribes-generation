@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "balpy_v2"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["José Ribeiro <me@joseribeiro.dev>"]
 readme = "README.md"
@@ -12,6 +12,7 @@ pandas = "^2.0.1"
 numpy = "^1.24.3"
 httpx = "^0.24.0"
 async-lru = "^2.0.2"
+web3 = "^6.3.0"
 
 
 [tool.poetry.group.dev.dependencies]

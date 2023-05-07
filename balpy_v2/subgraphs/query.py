@@ -5,7 +5,7 @@ from balpy_v2.subgraphs.client import GraphQLClient
 
 
 class GraphQLQuery(ABC):
-    def __init__(self, chain=Chain.mainnet, variables=dict()):
+    def __init__(self, chain=Chain.mainnet, variables=dict()) -> None:
         self.chain = chain
         self.variables = variables
 

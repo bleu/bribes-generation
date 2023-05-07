@@ -1,4 +1,3 @@
-# bots/lib/gql.py
 import json
 
 import httpx

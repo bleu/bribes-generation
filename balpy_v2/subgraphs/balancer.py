@@ -1,5 +1,5 @@
 from balpy_v2.lib import Chain
-from balpy_v2.subgraphs.client import SubgraphBaseClient
+from balpy_v2.subgraphs.client import GraphQLClient
 from balpy_v2.subgraphs.query import GraphQLQuery
 
 BASE_URL = "https://api.thegraph.com/subgraphs/name/balancer-labs"
@@ -15,7 +15,7 @@ BALANCER_MAINNET_SUBGRAPH_URL_MAP = {
 }
 
 
-class BalancerSubgraph(SubgraphBaseClient):
+class BalancerSubgraph(GraphQLClient):
     def get_url(self, chain):
         return BALANCER_MAINNET_SUBGRAPH_URL_MAP[chain]
 
