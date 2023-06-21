@@ -2,7 +2,6 @@
 import os
 
 import httpx
-from async_lru import alru_cache
 
 from balpy_v2.lib import Chain
 from balpy_v2.lib.gql import gql
@@ -51,7 +50,6 @@ async def best_guess(chain=Chain.gnosis, t=get_time_24h_ago()) -> int:
     return int(r.json()["result"])
 
 
-@alru_cache
 async def get_block_number_by_timestamp(
     chain=Chain.mainnet, timestamp=get_time_24h_ago()
 ) -> int:

@@ -4,7 +4,7 @@ version = "0.1.2"
 description = ""
 authors = ["José Ribeiro <me@joseribeiro.dev>"]
 readme = "README.md"
-packages = [{ include = "balpy_v2" }]
+packages = [{ include = "src/balpy_v2" }, { include = "src/fees_reporting" }]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
@@ -18,8 +18,9 @@ nuitka = { version = "^1.5.7", allow-prereleases = true }
 
 
 [tool.poetry.group.dev.dependencies]
-pandas = "^2.0.1"
-numpy = "^1.24.3"
+matplotlib = "^3.6.0"
+pandas = "^1.5.0"
+numpy = "^1.23.0"
 ipykernel = "^6.22.0"
 black = "^23.3.0"
 coverage = { version = "5.0.3", extras = ["toml"] }
@@ -29,6 +30,7 @@ pytest = "^7.3.1"
 pytest-asyncio = "^0.21.0"
 pre-commit = "^3.3.1"
 autoflake = "^2.1.1"
+ydata-profiling = "^4.1.2"
 
 
 [build-system]

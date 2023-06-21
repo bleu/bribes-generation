@@ -174,8 +174,10 @@ pyrightconfig.json
 # End of https://www.toptal.com/developers/gitignore/api/python
 
 .vscode
-data/**
-!data/.keep
+notebooks/data/**
+!notebooks/data/.keep
 **/deployments/**
 !**/deployments/.keep
 .balpy_cache/
+
+**/*.pickle

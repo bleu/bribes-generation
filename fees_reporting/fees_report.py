@@ -10,6 +10,7 @@ query token($block: Int!) {
                first: 1000,
                where:{
                     paidProtocolFees_not:"0"
+                    pool: "0x1e19cf2d73a72ef1332c882f20534b6519be0276000200000000000000000112"
                },
                 orderBy: paidProtocolFees,
                 orderDirection: desc
